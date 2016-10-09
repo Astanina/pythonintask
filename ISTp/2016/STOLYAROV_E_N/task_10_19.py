@@ -3,13 +3,12 @@
 
 
 # Столяров Евгений
-# 1.10.2016
+# 2.10.2016
 import os
 
 
 class Hero:
     def __init__(self):
-        self.stat_pool = 30
         self.stats = [0,  # Сила
                       0,  # Ловкость
                       0,  # Здоровье
